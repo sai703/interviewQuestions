@@ -1,0 +1,125 @@
+Last login: Tue Oct 18 07:04:15 2022 from 60.243.189.205
+ubuntu@ip-172-31-34-5:~$ sudo su -
+root@ip-172-31-34-5:~# cd /usr/local/tomcat9/tomcat9/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# cd bin/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# ./startup.sh
+Using CATALINA_BASE:   /usr/local/tomcat9/tomcat9
+Using CATALINA_HOME:   /usr/local/tomcat9/tomcat9
+Using CATALINA_TMPDIR: /usr/local/tomcat9/tomcat9/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /usr/local/tomcat9/tomcat9/bin/bootstrap.jar:/usr/local/tomcat9/tomcat9/bin/tomcat-juli.jar
+Using CATALINA_OPTS:
+Tomcat started.
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# cd ..
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# ls
+BUILDING.txt     LICENSE  README.md      RUNNING.txt  conf  logs  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin          lib   temp  work
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# ls
+BUILDING.txt     LICENSE  README.md      RUNNING.txt  conf  logs  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin          lib   temp  work
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# cd webapps/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps# ls
+ROOT  ambit2  ambit2.war  docs  examples  host-manager  manager
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps# cd ambit2/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2# ls
+META-INF  WEB-INF  editor  images  jme  jmol  jquery  report  scripts  style
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2# cd WEB-INF/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF# ls
+classes  lib  templates  web.xml
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF# cd classes/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes# ls
+16x16.png  META-INF  ambit2  c3p0.properties  log4j.properties  org  web.https.xml  web.xml
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes# cd ambit2/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2# ls
+rest
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2# cd rest/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest# ls
+ APIDocsRouter.class                       DocumentConvertor.class              dataset
+'AmbitApplication$1.class'                'ImageConvertor$1.class'              error
+'AmbitApplication$2.class'                 ImageConvertor.class                 facet
+'AmbitApplication$3.class'                'OutputStreamConvertor$1.class'       help
+'AmbitApplication$4.class'                 OutputStreamConvertor.class          links
+'AmbitApplication$5.class'                'OutputWriterConvertor$1.class'       loom
+'AmbitApplication$6.class'                 OutputWriterConvertor.class          model
+'AmbitApplication$7.class'                'PDFConvertor$1.class'                nano
+'AmbitApplication$8.class'                 PDFConvertor.class                   property
+'AmbitApplication$9$1.class'               QueryRDFReporter.class               propertyvalue
+'AmbitApplication$9.class'                 QueryRepresentationConvertor.class   pubchem
+'AmbitApplication$_staticfile$1.class'    'RDFJenaConvertor$1.class'            query
+'AmbitApplication$_staticfile$2.class'     RDFJenaConvertor.class               reference
+'AmbitApplication$_staticfile.class'      'RDFStaXConvertor$1.class'            report
+ AmbitApplication.class                    RDFStaXConvertor.class               routers
+ AmbitComponent.class                      UpdateAuthorizer.class               similarity
+ AmbitResource.class                       aa                                   sparqlendpoint
+'AmbitTunnelFilter$1.class'                admin                                structure
+'AmbitTunnelFilter$AcceptReplacer.class'   algorithm                            substance
+ AmbitTunnelFilter.class                   bookmark                             task
+'BO$BOClass.class'                         bundle                               ui
+ BO.class                                  config                               uri
+'DocumentConvertor$1.class'                dataEntry
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest# cd config/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# ls
+ambit2.pref  config.prop  googleanalytics.js  logging.prop  opentox.owl
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config#
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# ls
+ambit2.pref  config.prop  googleanalytics.js  logging.prop  opentox.owl
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# cp ambit2.pref ambit2.pref_bkp
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# ls -ltr
+total 76
+-rw-r----- 1 root root 48934 Apr 18  2016 opentox.owl
+-rw-r----- 1 root root  1951 Apr 18  2016 logging.prop
+-rw-r----- 1 root root   401 Apr 18  2016 googleanalytics.js
+-rw-r----- 1 root root  2794 Apr 18  2016 config.prop
+-rw-r----- 1 root root  4152 Apr 18  2016 ambit2.pref
+-rw-r----- 1 root root  4152 Oct 18 08:22 ambit2.pref_bkp
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# vi ambit2.pref
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# cp config.prop config.prop_bkp
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# vi config.prop
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/ambit2/WEB-INF/classes/ambit2/rest/config# cd /usr/local/tomcat9/tomcat9/bin/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# ./shutdown.sh
+Using CATALINA_BASE:   /usr/local/tomcat9/tomcat9
+Using CATALINA_HOME:   /usr/local/tomcat9/tomcat9
+Using CATALINA_TMPDIR: /usr/local/tomcat9/tomcat9/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /usr/local/tomcat9/tomcat9/bin/bootstrap.jar:/usr/local/tomcat9/tomcat9/bin/tomcat-juli.jar
+Using CATALINA_OPTS:
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# ./startup.sh
+Using CATALINA_BASE:   /usr/local/tomcat9/tomcat9
+Using CATALINA_HOME:   /usr/local/tomcat9/tomcat9
+Using CATALINA_TMPDIR: /usr/local/tomcat9/tomcat9/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /usr/local/tomcat9/tomcat9/bin/bootstrap.jar:/usr/local/tomcat9/tomcat9/bin/tomcat-juli.jar
+Using CATALINA_OPTS:
+Tomcat started.
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# /usr/local/tomcat9/tomcat9
+-su: /usr/local/tomcat9/tomcat9: Is a directory
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/bin# cd ..
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# ls
+BUILDING.txt     LICENSE  README.md      RUNNING.txt  conf  logs  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin          lib   temp  work
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# ls
+BUILDING.txt     LICENSE  README.md      RUNNING.txt  conf  logs  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin          lib   temp  work
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# cd w
+webapps/ work/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# cd wls
+-su: cd: wls: No such file or directory
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# ls
+BUILDING.txt     LICENSE  README.md      RUNNING.txt  conf  logs  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin          lib   temp  work
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9# cd webapps
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps# ls
+ROOT  ambit2  ambit2.war  docs  examples  host-manager  manager
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps# cd manager/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager# ls
+META-INF  WEB-INF  css  images  index.jsp  status.xsd  xform.xsl
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager# cd WEB-INF
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF# ls
+jsp  web.xml
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF# cd jsp/
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF/jsp# ls
+401.jsp  404.jsp             connectorCiphers.jsp       sessionDetail.jsp
+403.jsp  connectorCerts.jsp  connectorTrustedCerts.jsp  sessionsList.jsp
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF/jsp# vi
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF/jsp# vi sessionDetail.jsp
+root@ip-172-31-34-5:/usr/local/tomcat9/tomcat9/webapps/manager/WEB-INF/jsp#

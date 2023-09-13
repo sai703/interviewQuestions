@@ -1,0 +1,174 @@
+pipeline {
+                agent any
+                stages {
+stage(‘Build’) {
+                steps {
+// Statements…
+                }
+                }
+       stage (‘Test’) {
+       steps {
+              // Statements…
+       }
+       }
+    }
+}
+--------------------------------------------------------
+// Declarative Pipeline //
+===============================
+
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('mvn clean package') {
+           steps {
+             sh 'mvn clean package'
+          }
+       }
+    }
+}
+----------------------------------------
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                // Get code from a GitHub repository
+                git url: 'https://github.com/naiveskill/devops_cred.git', branch: 'main',
+                 credentialsId: 'github_creds'
+            }
+        }
+    }
+}
+---------------------------------playbook-----------------------------
+---
+  - name: Playbook
+    hosts: webservers
+    become: yes
+    become_user: root
+    tasks:
+      - name: ensure apache is at the latest version
+        yum:
+          name: httpd
+          state: latest
+      - name: ensure apache is running
+        service:
+          name: httpd
+          state: started
+
+-----------------------------
+---
+  - name: New user is created
+    hosts: webservers/Appserver/all
+    become: yes/true
+    become_user: root
+    tasks:
+      - name: Create new user
+        user:
+          name: Ram
+          state: present
+
+---------------------------------shell scripting------------------------
+#! usr/bin/bash
+echo "Hello World"
+
+----------------------------
+#!/bin/bash
+# A simple variable example
+greeting=Hello
+name=Tux
+echo $greeting $name
+
+----------------------------
+#!/bin/bash
+
+var=$((3+9))
+echo $var
+-------------------------YAML FILES-----------------------------------
+
+How to create a kubernetes Pod using YAML  
+
+Filename: /k8s/pods/pod1.YAML
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mywebapp1
+  labels:
+    role: webserver-role
+    app: nginx
+spec:
+  containers:
+  - name: webserver1
+    image: nginx:1.6
+    ports:
+     - containerPort:80
+  - name: database-server
+    image: mysql-3.2
+    ports:
+     - containerPort:3306
+volumes:
+  - name: websvr-storage
+    emptyDir: {}
+				Cammand:$ kubectl create -f pod1.YAML 
+------------------------------
+How to create a Kubernetes Deployment using YAML
+
+Filename: /k8s/deployments/deployment1.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment1
+  labels:
+	app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchlabels:
+      app: nginx
+template:
+  metadata:
+    labels:
+      app: nginx
+  spec:
+    containers:
+    - name: webserver1
+	  image: nginx:1.6
+	  ports:
+ 	  - containerPort:80
+    - name: database-server
+	  image: mysql-3.2
+	  ports:
+ 	  - containerPort:3306
+----------------------------------
+How to create a Kubernetes Service using YAML
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service  
+  labels:
+    app: nginx
+spec:
+  ports:
+  - nodePort: 30500
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: nginx
+  type: NodePort
+
+
+
+
+
+
+
+

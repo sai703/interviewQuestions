@@ -1,0 +1,158 @@
+Docker file
+which language is used for docker file
+add and copy in docker file
+cmd and entry point in docker file
+docker volumes
+docker networks
+docker basic commands
+docker troubleshooting 
+it and dit mode in docker command line
+port and target port in command
+Docker compose and docker swarm
+
+diff between docker swarm and kubernetes
+
+what is docker
+
+what is container why we are using?
+
+docker architecture
+
+container life cycle
+
+docker layers
+
+how to reduce the docker image size
+-----------------------------------
+
+kubernetes
+
+
+what is kubernetes and why its more popular
+diff docker swarm kuberetes
+kuberntes architecture or tell me about core componantes
+how authentication happen kubenetes
+pod life cycle
+what will be happen once pod created
+network configuration 
+etcdb and api server  corrctepted
+hpa
+pod desctruption budget
+name space
+what is deployment and statefullset and deamon set
+repicaset and replica controller
+servicemesh 
+multicontainers
+deployment strategies
+rolling updates 
+storage class and pvc and pv
+immage pullbackoff anf crashloopbackup
+how to check logs
+Liveness probe and readenes prod and startup probe
+
+--------------------------------------------------------
+Linux interview
+
+what is default permision for directory and file
+what is load average 
+how to check cpu and memory information
+what is deadlock process and defunct process
+how to get the performance of linux machine
+how use find the top ustilization files in linux command
+using find command get last modified and accessed files
+----------------------------------------------
+git conflicts
+git fetch and pull and push and clone
+branching strategies
+pull request
+merge and rebase
+git stash and squash 
+git head 
+git cherypick
+how to change to particuler branch and create branch
+git logs
+webhooks 
+git hotfix branching
+-------------------------------------------------
+Jenkins
+
+ What is Jenkins?
+what is Continuous integration vs. delivery vs. deployment
+types of jobs in git
+how install plungins of docker maven and terraform and how to configure 
+types of credentials
+blue and ocean 
+user context in jenkins
+build trigger types in jenkins
+Build after other projects are built works just fine either with generic Pipeline,
+How do I trigger a Jenkins job after another job?
+how integrate git with jenkins
+what is webhooks 
+How do you call a stage in another stage in Jenkins pipeline?
+What is downstream job in Jenkins?
+how to schedule jobs
+How do I create a downstream project in Jenkins?
+how to deploy java application using maven build by creating docker file though jenkins
+Explain Jenkins Multibranch Pipeline?
+Declarative vs. scripted pipelines: What's the difference?
+Can I mix Declarative and scripted pipeline?
+how to configure the master and slave node?
+What is Jenkins Build Cause?
+ What are the credential types supported by Jenkins?
+What are the Scopes of Jenkins Credentials?
+how to take the backup of jobs
+How to configure inclusions & exclusions in Artifacts Archival?
+ What is Artifact Archival & how to do it in Pipelines?
+How can we share information between different build steps or stages in a Jenkins Job?
+How code coverage is measured/tracked using Jenkins in a CI environment?
+how to configure the sonarcure in jenkins
+Default Environment Variables by Jenkins & How to introduce custom environment variables?
+How to install a Custom Jenkins Plugin or a Version of Plugin Not available in Jenkins Update Center?
+What is In-process Script Approval and how it works?
+How can we stop a Jenkins job from being executed temporarily?
+How to change port for Jenkins?
+How to configure and use third-party tools in Jenkins?
+\What are the steps included in a Jenkins pipeline?
+How will you create Pipeline in Jenkins?
+If there is a broken build in your Jenkins project, then what will you do?
+From one server to another, how do you copy or move your Jenkins jobs?
+How to deploy from Jenkins?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

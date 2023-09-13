@@ -1,0 +1,15 @@
+Difference bw Docker swarm and Docker compose?
+
+Difference bw cmd and entrypoint indocker file?
+
+explain kubernetes service and how to start the service?
+
+how to reslove git merge complict issues?
+
+difference between git merge and rebase?
+
+how to deploy containerized java appilication maven through jenkins from skratch?
+
+we have master slave and linux machine how to deploy a jenkins job for this?
+
+

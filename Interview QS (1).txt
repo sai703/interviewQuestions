@@ -1,0 +1,154 @@
+1. How can replace a word in file? what is the command?
+2. Purpose of TOP command?
+Ans: It is monitor the processes cpu,ram utilization,disk space
+3. What are the permissions in linux?
+4. What is stickybit? Ans: Only owner can delete the file
+5. Explain branching stratezy?
+6. What is the git stash?
+7. What is the git squash?
+8. Diffeence bw git fetch and git pull?
+9. How can you use git fetch?
+10. Write a simple pipeline file?
+11. No of stages in pipiline script.for ex one stage is failed then what can u do?
+12. Difference between scried and declarative pipeline?
+13. infrasture tools for ex terraform you know?
+14. State file in terraform?
+15. What are the types oy appilications in dockerzatation?
+16. Docker file for Dotnet appilications?
+17. What image can be consider for dotnet appilications?
+18. Where can be used kubernes cluster on-premis or aws?
+19. How can you configure the eks cluster?
+20. What are the taints and tolerents in kubernetes?
+21. Explain config maps?
+22. Can you use configmaps in past appilications?
+23. Where the exctaly configmaps in deployment aplictions?
+24. How can you use vpc?
+25. What are the resourses changes occured in running instances?
+26. Explain database?
+27. Moniting the memory of instances by using cloudwatch?
+-----------------------------------------------------
+
+1. Expalin Branching stratagy
+2. Who will approve the branching in production
+3. Explain CI/CD in jenkins
+4. What type of pipelins you are using?
+5. What type of satages you are using in pipeline
+6. Where the kubernetes as a manager service or cloud service ? 
+7. What type of applications you are using for deployment?
+8. Pods are running in your application, How can scale up your application?
+9. What is the diff. b/w Interpole network and Interpod network
+10. Deployment and statefull sets
+11. How frontend ports and backend ports communicate with each other?
+12. Workflow in EKS is connect to cluster in AWS
+13. Secrets in Kubernetes
+14. Config maps
+15. What are the services used in AWS
+16. Diff b/w EKS and ECS
+17. Expalin about API gateways
+18. What pupose we used DevOps?
+19. What type of tasks used in linux in your past projects?
+20. Explain SMTP in Azure
+21. What type of tasks used in Ansible in your past projects?
+22. Diff. b/w Web server and Application server
+---------------------------------------------------------------------------------------
+                   SRIRAM-MINDTREE Date:02/07/22
+                  ===============================
+
+1. Self, Roles and Responsibilities
+2. Explain day to day activities in your explain
+3. List of some commands you have to used in Linux
+4. Set and avilability zone in Azure
+5. How to exit in linux, while executing script
+6. Here, the secret phase are already available in the key one, have you rotated any secrets and site rotations?
+7. What is the Groovy in jenkins?
+8. Types of pipelins? 
+9. What is the storage services and explain, what it is?
+10. What is block storage in Azure?
+11. What is repository in Git, How can you initiate the git repository
+12. Have you deployed in docker images in kubernetes?
+13. How can you connect the kubernetes?
+14. What is the pod and what is the cluster?
+15. How can i describe the pods?
+16. What is the powerstates in Azure?
+17. What is the diff. b/w git fetch and git pull?
+18. Have you worked on ARN templates?
+19. CI/CD pipelins using terraform
+20. When you used terraform in on-premis infrastructure?
+21. Major diff. b/w CI/CD?
+22. What is the notable applications in terraform?
+23. Do you have any questions?
+
+-------------------------------------------------------------------------------------------------
+			Appalaraju -Global logic    Date:04/07/22
+			============================================
+1.Self, Roles and responsibilities?
+2.Explain the container in azure devops, which container supports for azzure?
+3.what is the use of active directiorey in azure?
+4.how to used azure ADP appilication? and is there any VPN requires to change the infra?
+5.what is the vnet in azure?
+6.Explain the roles and use of azure devops?
+7.how to secure jenkins?
+8.how to schedule a bulid in jenkins?
+9.what is the process of clonning a git repositiory?
+10.list of some variables in jenkins environment?
+11.how to use jenkins?
+12.what is the process of create job in jenkins?
+13.how to create multibranch pipeline?
+14.list out various kinds of pipeline jobs in jenkins
+15.explain pipeline as a code in jenkins?
+16.how to used thirdparty tool in jenkins?
+17.what is repositiory github?
+18.what is the function of git push?
+19.what is the clone github?
+20.what is the git log and when you can use it?
+21.difference bw kubernetes and docker swarm?
+22.what is the function of load balancer?
+23.explain the requirment of container orchastration?
+24.explain main components of k8's architecture?
+---------------------------------------------
+				FIS-RK    Date:04/07/22
+				=========================
+1.what is done by using ansible?
+2.wite plabook for deploying war file into tomcat
+3.explain jenkins groovey?
+4.how to connect jenkins to linux? and do you know how to provide permissions to jenkins?
+5.what is the service in kubernetes?
+6.explain replicasets and deployments?
+7.explain,what you have to done by using shell scripting?
+-------------------------------------------------------------------
+ACS SOLUTIONS- RK Date:04/07/22
+==============================
+
+what is the meaning of public private clouds?
+azzure block storage?
+apart from block storage any another sorages in azure?
+what are the configuratation managamenet tool?
+what are types of configuration tools?
+configuration management and status accounting?
+what is continious intergration?
+what is continious testing?
+what are the different types phases in devops?
+diff bw continious deployment and delivery?
+what are the different components are avabible in docker file?
+explain docker host,client,registery?
+what is cluster?
+what is tokenzier?
+what is the command for docker image as an archive?
+what is pod distribution budzet?
+how the load balancer in work on kubernetes?
+----------------------------------------------------------------------------
+1. Diff bw service and ingress?
+2. Diff bw helm and helmcharts?
+3. Write a declarative pipeline syntax ?
+4. Use of nodeport?
+5. Diff bw cmd and entrypoint?
+6. Did you worked on docker files and explain docker files?
+7. Did you worked on vpc?
+8. How to identify of public subnets?
+9. What is horozontal and vertical scalling?
+10. How will mount a volume to ec2 instance permentaly?
+11. How will make a password less connection to one server to another server?
+12. What kind of scripting language you have worked?
+
+
+

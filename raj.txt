@@ -1,0 +1,17 @@
+v72sgob5usqr6hudrjjjkzuk34sppxrgpzzbvfqildvzd5o4gaaq PAT TOKEN
+
+how to list out the all the files?
+how to check memory usage?
+what is the ping command?
+what is the first line shell script?
+git rebase?
+diff bw git fetch and git pull?
+how to get token in git?
+how many multibranch pipeline scripts are written in your organagation?
+how to integrete git in jenkins?
+explain some plugins?
+The Kubernetes Network proxy runs on which node?
+what is the headless service?
+what secrets in kubernetes?
+expalin kubernetes architecture?
+how to use json instead of yaml file?

@@ -1,0 +1,32 @@
+infosys L-1 Quesitions:-
+----------------------
+
+1)how many physical&virtual servers do you maintain in your company?
+2)how many kubernetes clusters do you maintain?
+3)how many pods are running in your project?
+4)what are the os running in your phusical servers?
+5)how many linux physical servers do you maintain?
+6)server performance is low how can you troubleshoot?
+7)what is swap?
+8)some budy is facing isuue to ligin a server how can you troubleshoot?
+9)how will  you confirm while the server in hunk state?
+10)if you want to see any service is running or not?
+11)you want to create the file system utlilazation?
+12)in a file 
+13)what is the use of git config?
+14)diff bw gitpull&git fetch?
+15)how do you check gitlogs?
+16)how to use git revert command and how to fix it?
+17)what is the use of git-cherrypick?
+18)if you want to list all the branches?
+19)explain git rebase?
+20)how to create a docker image?
+21)how to remove container in docker?
+22)diff bw docker And docker swarm?
+23)how to see Docker namespaces ?
+24)what is kubelet?
+25)kubelet is not working then k8's perfomance tasks?
+26)what is deamon in kubernetes?
+27)diff bw pod service and labels?
+28)describe what is the ddefualt namespaces in kube piblic?
+

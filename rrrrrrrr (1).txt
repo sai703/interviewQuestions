@@ -1,0 +1,27 @@
+how can replace a word in file.then what is the command?
+purpose of top command?
+what are the permissions in linux?
+what is stickybit?
+explain branching stratezy?
+what is the git slash?
+diffeence bw git fetch and git pull?
+how can you use git fetch?
+write a simple pipeline file?
+no of stages in pipiline script.for ex one stage is failed then what can u do?
+difference between scried and declarative pipeline?
+infrasture tools for ex terraform you know?
+state file in terraform?
+what are the types oy appilications in dockerzatation?
+docker file for Dotnet appilications?
+what image can be consider for dotnet appilications?
+where can be used kubernes cluster?
+how can you configure the eks cluster?
+what are the tails and tolerentsin kubernetes?
+explain config maps?
+can you use configmaps in past appilications?
+where the exctaly cofigmaps in deployment appilictions?
+how canyou use vpc?
+what are the resourses changes occured in running instances?
+explain database?
+moniting the memory of instances by using cloudwatch?
+  
